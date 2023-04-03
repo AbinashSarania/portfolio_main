@@ -24,9 +24,9 @@ const Hero = () => {
     <div>
      
       <div className={` flex-col mx-auto items-center overflow-x:hidden ${isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`} style={{ overflowX: 'hidden' }}>
-        <header className=" pt-6 fixed right-5">
+        <header className=" pt-6 ">
        
-          <div className=" fixed right-5 pt-6 ">
+          <div className=" fixed right-5 pt-2 ">
           
             <button
               type="button"
