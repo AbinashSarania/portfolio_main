@@ -6,6 +6,7 @@ import { Footer } from "./Footer";
 import ChatBot from "./Chatbot";
 import Contact from "./Contact";
 import Skills from "./Skills";
+import MusicButton from "./MusicButton";
 
 const Hero = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -14,6 +15,7 @@ const Hero = () => {
     setIsDarkMode(!isDarkMode);
   };
 
+  
 
   function handleDownload() {
     fileDownload('../assets/Abinash Sarania(Resume).pdf', 'Abinash Sarania(Resume).pdf');
@@ -21,12 +23,15 @@ const Hero = () => {
 
   return (
     <div>
+     
       <div className={` flex-col mx-auto items-center overflow-x:hidden ${isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`} style={{ overflowX: 'hidden' }}>
-        <header className="px-4 py-4">
-          <div className=" fixed right-5 ">
+        <header className=" pt-6 fixed right-5">
+        <MusicButton />
+          <div className=" fixed right-5 pt-6 ">
+          
             <button
               type="button"
-              className={`${isDarkMode ? 'bg-yellow-400' : 'bg-gray-800'} inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500`}
+              className={`${isDarkMode ? 'bg-yellow-400' : 'bg-gray-800'} inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pt-`}
               aria-label="Toggle dark mode"
               onClick={handleToggleMode}
             >
