@@ -20,42 +20,43 @@ function Contact() {
             <i className="fas fa-envelope text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">Email</h3>
-              <p className="text-gray-500">your.email@example.com</p>
+              <p className="text-gray-500">abinashsarania@gmail.com</p>
             </div>
           </div>
           <div className="flex flex-row items-center cursor-pointer">
             <i className="fas fa-phone text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">Phone</h3>
-              <p className="text-gray-500">(123) 456-7890</p>
+              <p className="text-gray-500">+91-8486214585</p>
+              <p className="text-gray-500">+91-9101526247</p>
             </div>
           </div>
           <div className="flex flex-row items-center cursor-pointer">
             <i className="fas fa-phone text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">LinkedIn</h3>
-              <p className="text-gray-500">(123) 456-7890</p>
+              <p className="text-gray-500">www.linkedin.com/in/abinashsarania/</p>
             </div>
           </div>
           <div className="flex flex-row items-center cursor-pointer">
             <i className="fas fa-phone text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">Github</h3>
-              <p className="text-gray-500">(123) 456-7890</p>
+              <p className="text-gray-500">https://github.com/AbinashSarania</p>
             </div>
           </div>
           <div className="flex flex-row items-center cursor-pointer">
             <i className="fas fa-phone text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">Instagram</h3>
-              <p className="text-gray-500">(123) 456-7890</p>
+              <p className="text-gray-500">www.instagram.com/yourfriendlylocalracoon/</p>
             </div>
           </div>
           <div className="flex flex-row items-center cursor-pointer">
             <i className="fas fa-map-marker-alt text-gray-500 text-2xl mr-4"></i>
             <div>
               <h3 className="text-lg font-semibold text-gradient bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">Address</h3>
-              <p className="text-gray-500">123 Main St, City, State, Zip Code</p>
+              <p className="text-gray-500">Dhirenpara, Guwahati, Assam, India.</p>
             </div>
           </div>
         </div>
