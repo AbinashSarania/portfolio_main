@@ -6,7 +6,7 @@ import { Footer } from "./Footer";
 import ChatBot from "./Chatbot";
 import Contact from "./Contact";
 import Skills from "./Skills";
-import MusicButton from "./MusicButton";
+import AudioPlayer from "./AudioPlayer";
 
 const Hero = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -26,7 +26,7 @@ const Hero = () => {
      
       <div className={` flex-col mx-auto items-center overflow-x:hidden ${isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`} style={{ overflowX: 'hidden' }}>
         <header className=" pt-6 fixed right-5">
-        <MusicButton />
+       <AudioPlayer />
           <div className=" fixed right-5 pt-6 ">
           
             <button
