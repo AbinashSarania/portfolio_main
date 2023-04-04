@@ -1,0 +1,64 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.13",
+    "@heroicons/react": "^1.0.6",
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@react-spring/web": "^9.7.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.2",
+    "framer-motion": "^10.10.0",
+    "gsap": "^3.11.5",
+    "imagesloaded": "^5.0.0",
+    "js-file-download": "^0.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-scroll": "^1.8.9",
+    "react-scroll-parallax": "^3.3.2",
+    "react-spring": "^9.7.1",
+    "react-three-fiber": "^6.0.13",
+    "scrollmagic": "^2.0.8",
+    "swiper": "^9.2.0",
+    "tailwind-styled-components": "^2.2.0",
+    "three": "^0.151.2",
+    "twind": "^0.16.19",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1",
+    "twin.macro": "^3.3.0"
+  }
+}
