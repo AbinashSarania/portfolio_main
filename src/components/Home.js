@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Player } from '@lottiefiles/react-lottie-player';
-import fileDownload from "js-file-download";
 import CardSlider from "./CardSlider";
 import { Footer } from "./Footer";
 import ChatBot from "./Chatbot";
@@ -14,20 +13,18 @@ const Hero = () => {
     setIsDarkMode(!isDarkMode);
   };
 
-  
 
-  function handleDownload() {
-    fileDownload('../assets/Abinash Sarania(Resume).pdf', 'Abinash Sarania(Resume).pdf');
-  }
+
+
 
   return (
     <div>
-     
+
       <div className={` flex-col mx-auto items-center overflow-x:hidden ${isDarkMode ? 'bg-black text-white' : 'bg-white text-gray-900'}`} style={{ overflowX: 'hidden' }}>
         <header className=" pt-6 ">
-       
+
           <div className=" fixed right-5 pt-2 ">
-          
+
             <button
               type="button"
               className={`${isDarkMode ? 'bg-yellow-400' : 'bg-gray-800'} inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 pt-`}
@@ -66,16 +63,14 @@ const Hero = () => {
                 Abinash Sarania
               </span>
             </h1>
-            <p className="text-hsl-900 font-Urbanist tracking-wider cursor-pointer relative text-base md:text-lg font-medium py-4 text-justify" style={{ maxWidth: '90vw' }}>
-  I am a dedicated full stack developer with expertise in React, Node.js, and React Native. I am passionate about crafting exceptional web and mobile applications that provide seamless user experiences. I strive to stay up-to-date with the latest technologies and best practices to deliver innovative and reliable solutions that exceed expectations.
-</p>
+            <p className="text-hsl-900 font-Urbanist tracking-wider cursor-pointer relative text-base md:text-lg font-medium py-4 text-justify mb-8" style={{ maxWidth: '90vw' }}>
+              I am a dedicated full stack developer with expertise in React, Node.js, and React Native. I am passionate about crafting exceptional web and mobile applications that provide seamless user experiences. I strive to stay up-to-date with the latest technologies and best practices to deliver innovative and reliable solutions that exceed expectations.
+            </p>
 
-            <button
-              className="mt-8 px-8 md:px-16 py-4 font-Urbanist font-md bg-gradient-to-r from-blue-500 via-blue-300 to-blue-800 text-white rounded-lg  hover:bg-blue-700 dark:bg-gray-700 transition duration-300 hover:translate-y-px"
-              onClick={handleDownload}
-            >
+
+            <a href="https://drive.google.com/file/d/1rDkAkLgEqWbkAOBbc-xXwnLLznH9GQst/view?usp=share_link" class=" mt-8 px-8 md:px-16 py-4 font-Urbanist font-md bg-gradient-to-r from-blue-500 via-blue-300 to-blue-800 text-white rounded-xl  hover:bg-blue-700 dark:bg-gray-700 transition duration-300 hover:translate-y-px">
               Download CV
-            </button>
+            </a>
 
 
           </div>
