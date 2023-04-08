@@ -72,7 +72,7 @@ function CardSlider() {
           <SwiperSlide className="swiper-slide relative bg-center bg-cover w-72 h-72">
             <img src={image1} className="rounded-lg filter drop-shadow-lg glow" alt="" />
             <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-end pb-2">
-            <a href="https://github.com/AbinashSarania/crpto_marketplace_main" class="text-center font-Urbanist bg-gradient-to-r from-blue-500 to-teal-500 hover:from-teal-500 hover:to-blue-500 text-white font-bold py-2 px-4 rounded mx-2 mb-2">
+            <a href="https://crpto-marketplace-main.vercel.app/" class="text-center font-Urbanist bg-gradient-to-r from-blue-500 to-teal-500 hover:from-teal-500 hover:to-blue-500 text-white font-bold py-2 px-4 rounded mx-2 mb-2">
                 Demo
               </a>
               <a href="https://github.com/AbinashSarania/crpto_marketplace_main" class="text-center font-Urbanist bg-gradient-to-r from-blue-500 to-teal-500 hover:from-teal-500 hover:to-blue-500 text-white font-bold py-2 px-4 rounded mx-2 mb-2">
