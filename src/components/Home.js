@@ -69,7 +69,7 @@ const Hero = () => {
             </p>
 
 
-            <a href="https://drive.google.com/file/d/1rDkAkLgEqWbkAOBbc-xXwnLLznH9GQst/view?usp=share_link" class=" mt-8 px-8 md:px-16 py-4 font-Urbanist font-md bg-gradient-to-r from-blue-500 via-blue-300 to-blue-800 text-white rounded-xl  hover:bg-blue-700 dark:bg-gray-700 transition duration-300 hover:translate-y-px">
+            <a href="https://drive.google.com/file/d/1NO9bDF5PfO7g2R_8GicT36dz3OyjoAfR/view?usp=share_link" class=" mt-8 px-8 md:px-16 py-4 font-Urbanist font-md bg-gradient-to-r from-blue-500 via-blue-300 to-blue-800 text-white rounded-xl  hover:bg-blue-700 dark:bg-gray-700 transition duration-300 hover:translate-y-px">
               Download CV
             </a>
 
